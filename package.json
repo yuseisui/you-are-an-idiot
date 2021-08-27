@@ -3,8 +3,9 @@
   "name": "you-are-an-idiot",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "lint": "xo",
     "lint:fix": "xo --fix"
   },
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/yuseisui/you-are-an-idiot#readme",
   "devDependencies": {
     "@types/xo": "^0.39.1",
+    "electron": "^13.2.2",
     "xo": "^0.44.0"
   }
 }
