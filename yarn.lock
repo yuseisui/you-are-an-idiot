@@ -1222,16 +1222,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^13.2.3":
-  version: 13.3.0
-  resolution: "electron@npm:13.3.0"
+"electron@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "electron@npm:14.0.0"
   dependencies:
     "@electron/get": ^1.0.1
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: 7a1a24f39f9555b77e197af575f883fd4d6c56ae88e0665d29621eec2ed937d50792e543245dfea94ee9bff4c7c8eaf85edd4e7254f9064cdc2a85eb0a05a4c2
+  checksum: f07d52aab130ea596a295de0d1f620af73e0ce46462e5d73dc0f0e591daf92ef9c661e260ac00657e46d82e598758ad818a9d3eb3260968289bd44123119a1cf
   languageName: node
   linkType: hard
 
@@ -4505,7 +4505,7 @@ __metadata:
   resolution: "you-are-an-idiot@workspace:."
   dependencies:
     "@types/xo": ^0.39.1
-    electron: ^13.2.3
+    electron: ^14.0.0
     xo: ^0.44.0
   languageName: unknown
   linkType: soft
