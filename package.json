@@ -2,12 +2,13 @@
   "private": true,
   "name": "you-are-an-idiot",
   "version": "0.1.0",
-  "description": "",
+  "description": "You are an idiot!",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "lint": "xo",
-    "lint:fix": "xo --fix"
+    "lint:fix": "xo --fix",
+    "postinstall": "electron-builder install-app-deps"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/xo": "^0.39.1",
     "electron": "^13.2.3",
+    "electron-builder": "^22.11.7",
     "xo": "^0.44.0"
   }
 }
