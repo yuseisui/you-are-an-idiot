@@ -1,0 +1,4 @@
+productName: You are an idiot!
+artifactName: ${name}.${ext}
+win:
+  target: portable
