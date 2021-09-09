@@ -22,7 +22,7 @@
   "homepage": "https://github.com/yuseisui/you-are-an-idiot#readme",
   "devDependencies": {
     "@types/xo": "^0.39.1",
-    "electron": "^13.2.3",
+    "electron": "^14.0.0",
     "xo": "^0.44.0"
   }
 }
