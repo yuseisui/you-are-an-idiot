@@ -3,7 +3,7 @@
   "name": "you-are-an-idiot",
   "version": "1.0.0",
   "description": "You are an idiot!",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
     "start": "electron .",
     "lint": "xo",

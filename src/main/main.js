@@ -1,4 +1,5 @@
 const {app, BrowserWindow, screen} = require('electron');
+const path = require('path');
 const process = require('process');
 
 const choice = (array) => array[Math.trunc(Math.random() * array.length)];
@@ -18,7 +19,7 @@ const createWindow = () => {
 		fullscreenable: false,
 	});
 
-	window.loadFile('index.html');
+	window.loadFile(path.join(__dirname, '../renderer/index.html'));
 
 	return window;
 };
