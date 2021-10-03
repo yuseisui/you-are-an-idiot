@@ -2023,16 +2023,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^15.0.0":
-  version: 15.0.0
-  resolution: "electron@npm:15.0.0"
+"electron@npm:^15.1.0":
+  version: 15.1.0
+  resolution: "electron@npm:15.1.0"
   dependencies:
     "@electron/get": ^1.13.0
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: d3b6be55074edfd08f8e3477d41cf00969f9f0b518b4ed5d9813e35b021efaf93f965b61f44d4c6d443b2fa3073686a809d2ab493444a2596a5bffb8c963d073
+  checksum: 279b236a4ada13ee37b6463435e72c5960d5801ced6b313b10be2a0653084ba13705122af09b578b7b3f80aad5bdbeb09dc51578662048b851b0b12dfba32503
   languageName: node
   linkType: hard
 
@@ -6388,7 +6388,7 @@ __metadata:
   resolution: "you-are-an-idiot@workspace:."
   dependencies:
     "@types/xo": ^0.39.1
-    electron: ^15.0.0
+    electron: ^15.1.0
     electron-builder: ^22.11.7
     xo: ^0.44.0
   languageName: unknown
