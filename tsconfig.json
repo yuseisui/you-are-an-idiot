@@ -1,0 +1,7 @@
+{
+  "extends": "@enjoyjs/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noEmit": true
+  }
+}

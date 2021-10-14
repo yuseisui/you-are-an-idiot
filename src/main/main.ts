@@ -1,10 +1,11 @@
-const {app, BrowserWindow, screen} = require('electron');
-const path = require('path');
-const process = require('process');
+import {app, BrowserWindow, screen} from 'electron';
+import path from 'node:path';
+import process from 'node:process';
 
-const choice = (array) => array[Math.trunc(Math.random() * array.length)];
+const choice = (array: number[]): number =>
+	array[Math.trunc(Math.random() * array.length)]!;
 
-const createWindow = () => {
+const createWindow = (): BrowserWindow => {
 	const window = new BrowserWindow({
 		width: 480,
 		height: 360,
@@ -19,12 +20,12 @@ const createWindow = () => {
 		fullscreenable: false,
 	});
 
-	window.loadFile(path.join(__dirname, '../renderer/index.html'));
+	void window.loadFile(path.join(__dirname, '../renderer/index.html'));
 
 	return window;
 };
 
-const main = () => {
+const main = (): void => {
 	const window = createWindow();
 	const interval = 16;
 	const vectors = [-16, -8, 8, 16];
@@ -38,8 +39,8 @@ const main = () => {
 		}
 
 		const {workAreaSize} = screen.getPrimaryDisplay();
-		const [windowX, windowY] = window.getPosition();
-		const [windowWidth, windowHeight] = window.getSize();
+		const [windowX, windowY] = window.getPosition() as [number, number];
+		const [windowWidth, windowHeight] = window.getSize() as [number, number];
 
 		const margin = {
 			left: windowX,
@@ -65,7 +66,7 @@ const main = () => {
 	});
 };
 
-app.whenReady().then(() => {
+void app.whenReady().then(() => {
 	main();
 
 	app.on('activate', () => {
