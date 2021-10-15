@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "you-are-an-idiot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You are an idiot!",
   "main": "built/main/main.js",
   "scripts": {
