@@ -1934,7 +1934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-builder@npm:^22.11.7":
+"electron-builder@npm:^22.11.11":
   version: 22.14.5
   resolution: "electron-builder@npm:22.14.5"
   dependencies:
@@ -2265,7 +2265,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.13.3":
+"esbuild@npm:^0.13.6":
   version: 0.13.6
   resolution: "esbuild@npm:0.13.6"
   dependencies:
@@ -6115,7 +6115,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@>=4.3, typescript@^4.4.3":
+"typescript@>=4.3, typescript@^4.4.3, typescript@^4.4.4":
   version: 4.4.4
   resolution: "typescript@npm:4.4.4"
   bin:
@@ -6125,7 +6125,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@>=4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@>=4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
   version: 4.4.4
   resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=32657b"
   bin:
@@ -6498,9 +6498,9 @@ __metadata:
     "@enjoyjs/tsconfig": ^3.0.0
     "@types/xo": ^0.39.1
     electron: ^15.2.0
-    electron-builder: ^22.11.7
-    esbuild: ^0.13.3
-    typescript: ^4.4.3
+    electron-builder: ^22.11.11
+    esbuild: ^0.13.6
+    typescript: ^4.4.4
     xo: ^0.45.0
   languageName: unknown
   linkType: soft
