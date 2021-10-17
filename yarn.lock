@@ -576,9 +576,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.11.0
-  resolution: "@types/node@npm:16.11.0"
-  checksum: 194ae80ec72f664e15e03c33f116be96aa1e85b167a19e31003c53ddfc36dabd65744e9a76c1d46b7ce2e5981d2ccb8e84a85c3ec9ac89f1471daaa885bdcfd0
+  version: 16.11.1
+  resolution: "@types/node@npm:16.11.1"
+  checksum: 22cea470b89292810733b8b9fc1b6a1873bc3ed4d4cdf2f25e777dc607994bd7c12e64166d1a66dd5924734192b0a891b6aeb6813aa935f731345f4086234375
   languageName: node
   linkType: hard
 
@@ -646,11 +646,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^17.0.1":
-  version: 17.0.3
-  resolution: "@types/yargs@npm:17.0.3"
+  version: 17.0.4
+  resolution: "@types/yargs@npm:17.0.4"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: 8c4e01f893f0b372a37efb2da2191b63793a25126e0b468c7eb8886176fec2a10f063d9718fa75f1fa00e82fbed4a614bb06661d968e4233be8a00468b94ac60
+  checksum: 570f5227bf7ae0ba7c5e64f825fb6168bf5fa2b9cba0cabf88c7f2094717287f6d95919ea8756596cc8c4bb3151313976163f911ca21f9cf6435b4e3cab1cb7e
   languageName: node
   linkType: hard
 
@@ -1367,9 +1367,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001265":
-  version: 1.0.30001267
-  resolution: "caniuse-lite@npm:1.0.30001267"
-  checksum: 1a84f792a17a7819d42bed24eafe2a4832ab1f58937b6d65a9f43e9cdd2a3b10308e8bc2bbb3808f1df6b60940b1770b185c42370fa9dac2c8bc5c8a0363c158
+  version: 1.0.30001269
+  resolution: "caniuse-lite@npm:1.0.30001269"
+  checksum: 23a6bd029c4120a084056dae4eeecc552eba55c434035306e7ee4060aed1b6babed5f6d832f6ba359f13376356464a1673bc6c625c2932e376156f7f7fa1a3c0
   languageName: node
   linkType: hard
 
@@ -1990,9 +1990,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.867":
-  version: 1.3.869
-  resolution: "electron-to-chromium@npm:1.3.869"
-  checksum: 0e6615df267e96b5ff42673cde257ef2709d87699a828dccc1fbc6539d60169736eff93f8ef9e3943117f6d74e705f08aa92c80810c9ca89746b09b3f70166ea
+  version: 1.3.871
+  resolution: "electron-to-chromium@npm:1.3.871"
+  checksum: 3fc5447b0df1d95530069aad56e6262d4aa1115c1c4c3abffa91e944b73c867da0615e75e54838ccad104a4253d9796a03b8e7e305d3d4b90f706f8ca03a524c
   languageName: node
   linkType: hard
 
@@ -5734,17 +5734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^1.0.2 || 2, string-width@npm:^2.0.0":
-  version: 2.1.1
-  resolution: "string-width@npm:2.1.1"
-  dependencies:
-    is-fullwidth-code-point: ^2.0.0
-    strip-ansi: ^4.0.0
-  checksum: d6173abe088c615c8dffaf3861dc5d5906ed3dc2d6fd67ff2bd2e2b5dce7fd683c5240699cf0b1b8aa679a3b3bd6b28b5053c824cb89b813d7f6541d8f89064a
-  languageName: node
-  linkType: hard
-
-"string-width@npm:^4.0.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.2, string-width@npm:^4.2.3":
+"string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.0.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.2, string-width@npm:^4.2.3":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
@@ -5752,6 +5742,16 @@ __metadata:
     is-fullwidth-code-point: ^3.0.0
     strip-ansi: ^6.0.1
   checksum: e52c10dc3fbfcd6c3a15f159f54a90024241d0f149cf8aed2982a2d801d2e64df0bf1dc351cf8e95c3319323f9f220c16e740b06faecd53e2462df1d2b5443fb
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "string-width@npm:2.1.1"
+  dependencies:
+    is-fullwidth-code-point: ^2.0.0
+    strip-ansi: ^4.0.0
+  checksum: d6173abe088c615c8dffaf3861dc5d5906ed3dc2d6fd67ff2bd2e2b5dce7fd683c5240699cf0b1b8aa679a3b3bd6b28b5053c824cb89b813d7f6541d8f89064a
   languageName: node
   linkType: hard
 
@@ -6302,11 +6302,11 @@ __metadata:
   linkType: hard
 
 "wide-align@npm:^1.1.0":
-  version: 1.1.3
-  resolution: "wide-align@npm:1.1.3"
+  version: 1.1.5
+  resolution: "wide-align@npm:1.1.5"
   dependencies:
-    string-width: ^1.0.2 || 2
-  checksum: d09c8012652a9e6cab3e82338d1874a4d7db2ad1bd19ab43eb744acf0b9b5632ec406bdbbbb970a8f4771a7d5ef49824d038ba70aa884e7723f5b090ab87134d
+    string-width: ^1.0.2 || 2 || 3 || 4
+  checksum: d5fc37cd561f9daee3c80e03b92ed3e84d80dde3365a8767263d03dacfc8fa06b065ffe1df00d8c2a09f731482fcacae745abfbb478d4af36d0a891fad4834d3
   languageName: node
   linkType: hard
 
