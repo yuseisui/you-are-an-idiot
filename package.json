@@ -26,7 +26,7 @@
     "@types/xo": "^0.39.1",
     "electron": "^15.2.0",
     "electron-builder": "^22.13.1",
-    "esbuild": "^0.13.8",
+    "esbuild": "^0.13.9",
     "typescript": "^4.4.4",
     "xo": "^0.45.0"
   }
