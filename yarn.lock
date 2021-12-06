@@ -646,7 +646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/xo@npm:^0.39.1":
+"@types/xo@npm:^0.39.2":
   version: 0.39.2
   resolution: "@types/xo@npm:0.39.2"
   dependencies:
@@ -6473,7 +6473,7 @@ __metadata:
   resolution: "you-are-an-idiot@workspace:."
   dependencies:
     "@enjoyjs/tsconfig": ^3.0.0
-    "@types/xo": ^0.39.1
+    "@types/xo": ^0.39.2
     electron: ^16.0.4
     electron-builder: ^22.14.5
     esbuild: ^0.14.2
