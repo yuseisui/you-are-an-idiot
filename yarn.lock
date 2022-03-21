@@ -84,10 +84,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@enjoyjs/tsconfig@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@enjoyjs/tsconfig@npm:3.0.0"
-  checksum: 18e26d6358c6c63fa6bbd5b69b9c5a725efae07084b311db0b960eb7673a2da6b84fa83bdfc7ce4ff10407721593002253ac30382b40911432ae733b75a27218
+"@enjoyjs/tsconfig@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@enjoyjs/tsconfig@npm:3.0.1"
+  checksum: 54c79218faa1cbce300a3acc4093c3c31fb81d4dc3f7b61cda78429af8480cfd8719e6a8fc10291b0986efb63d420798f610289d0771caf6c71d370be6e19069
   languageName: node
   linkType: hard
 
@@ -6029,7 +6029,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "you-are-an-idiot@workspace:."
   dependencies:
-    "@enjoyjs/tsconfig": ^3.0.0
+    "@enjoyjs/tsconfig": ^3.0.1
     "@types/xo": ^0.39.2
     electron: ^17.1.2
     electron-builder: ^22.14.13

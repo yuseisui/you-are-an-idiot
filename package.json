@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/yuseisui/you-are-an-idiot#readme",
   "devDependencies": {
-    "@enjoyjs/tsconfig": "^3.0.0",
+    "@enjoyjs/tsconfig": "^3.0.1",
     "@types/xo": "^0.39.2",
     "electron": "^17.1.2",
     "electron-builder": "^22.14.13",
