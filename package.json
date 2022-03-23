@@ -24,7 +24,7 @@
   "devDependencies": {
     "@enjoyjs/tsconfig": "^3.0.1",
     "@types/xo": "^0.39.2",
-    "electron": "^17.1.2",
+    "electron": "^17.2.0",
     "electron-builder": "^22.14.13",
     "esbuild": "^0.14.27",
     "typescript": "^4.6.2",
