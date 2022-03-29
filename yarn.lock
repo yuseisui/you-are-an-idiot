@@ -1668,16 +1668,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^17.2.0":
-  version: 17.2.0
-  resolution: "electron@npm:17.2.0"
+"electron@npm:^17.3.0":
+  version: 17.3.0
+  resolution: "electron@npm:17.3.0"
   dependencies:
     "@electron/get": ^1.13.0
     "@types/node": ^14.6.2
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: f345311f9c79f0852c3116ede2b83a439e8c1c3b2a40c85e5b5912962571fe1d1c19af8231e0215f47da735ebe6064cbc812ae1bdf4f9638de538912b1f6ab7e
+  checksum: 2724e1135ee027289064c3101f6331e49c63a99a7079bb1efdcd98e33026c08a557fb72a8c601c758ebd0b23c612ed819a0e9bf94671e17617d6fe339857e2da
   languageName: node
   linkType: hard
 
@@ -6051,7 +6051,7 @@ typescript@^4.6.3:
   dependencies:
     "@enjoyjs/tsconfig": ^3.0.1
     "@types/xo": ^0.39.2
-    electron: ^17.2.0
+    electron: ^17.3.0
     electron-builder: ^22.14.13
     esbuild: ^0.14.28
     typescript: ^4.6.3
