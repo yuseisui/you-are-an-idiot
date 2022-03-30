@@ -330,10 +330,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.6.2":
-  version: 14.18.12
-  resolution: "@types/node@npm:14.18.12"
-  checksum: 8a0273caa0584020adb8802784fc7d4f18f05e6c205335b7f3818a91d6b0c22736b9f51da3428d5bc54076ad47f1a4d6d57990a3ce8489a520ac66b2b3ff24bc
+"@types/node@npm:^16.11.26":
+  version: 16.11.26
+  resolution: "@types/node@npm:16.11.26"
+  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
   languageName: node
   linkType: hard
 
@@ -1668,16 +1668,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:^17.3.1":
-  version: 17.3.1
-  resolution: "electron@npm:17.3.1"
+"electron@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "electron@npm:18.0.1"
   dependencies:
     "@electron/get": ^1.13.0
-    "@types/node": ^14.6.2
+    "@types/node": ^16.11.26
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: 29a2edb59402b2752934872bec6f5f5fa914ad2ffb7ed09a6c7f44f08dfd314db72cda99b53a8db28ab6a3761f8305e4753afa72f8cca9fa858eb2d4dda30581
+  checksum: 90d2e7d640643edcf41ddfeedc0a0e535154b68e039fe561dc208895497369d9afcf7c2cf3142d196055718d21cb100eb94360ee6356c911a1019e01d93cebbd
   languageName: node
   linkType: hard
 
@@ -6051,7 +6051,7 @@ typescript@^4.6.3:
   dependencies:
     "@enjoyjs/tsconfig": ^3.0.1
     "@types/xo": ^0.39.2
-    electron: ^17.3.1
+    electron: ^18.0.1
     electron-builder: ^22.14.13
     esbuild: ^0.14.30
     typescript: ^4.6.3
