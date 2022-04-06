@@ -1,10 +1,13 @@
 # you-are-an-idiot
 
-> You are an idiot! Ha haha ha ha ha haaa ah hahaha haa!
+<div align="center">
+  <img src="src/renderer/assets/you-are-an-idiot.gif" alt="you are an idiot">
+  <p><q><i><b>You are an idiot! Ha haha ha ha ha haaa ah hahaha haa!</b></i></q></p>
+</div>
 
 ## Download
 
-Download the latest binary from the [release page](https://github.com/yuseisui/you-are-an-idiot/releases/latest).
+Download the latest binary from the [release page](https://github.com/yuseisui/you-are-an-idiot/releases/latest) (tooooo large 😜).
 
 Currently, it is only available for Windows.
 
