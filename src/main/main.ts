@@ -20,6 +20,7 @@ const createWindow = (): BrowserWindow => {
 		fullscreenable: false,
 	});
 
+	// eslint-disable-next-line unicorn/prefer-module
 	void window.loadFile(path.join(__dirname, '../renderer/index.html'));
 
 	return window;
